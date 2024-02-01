@@ -17,10 +17,6 @@ Before you start using this script, make sure you have:
 - A Galxe account where tasks are to be completed.
 - Access to the Developer Tools on your web browser (usually accessible by pressing `Ctrl+Shift+I` or `Cmd+Opt+I` on Mac).
 
-## Installation 🔧
-
-Currently, the code for the script is yet to be announced (TBA). Once available, it will be updated here with detailed instructions.
-
 ## Usage 📖
 
 To use the script:
