@@ -23,7 +23,7 @@ To use the script:
 
 1. Open the DevTools in your web browser.
 2. Navigate to the "Console" tab.
-3. Copy the script code (to be provided) and paste it into the console.
+3. Copy the script code (index.js) and paste it into the console.
 4. Press `Enter` to run the script.
 
 ## Contribution 🤝
