@@ -1,102 +1,102 @@
-const _0x138b2b = _0xdc6e,
-  elementsToClick =
-    (!(function () {
-      for (var e = _0xdc6e, t = _0xfba8(); ; )
-        try {
-          if (
-            221589 ==
-            -parseInt(e(347)) +
-              (parseInt(e(346)) / 2) * (parseInt(e(357)) / 3) +
-              (parseInt(e(353)) / 4) * (parseInt(e(356)) / 5) +
-              (-parseInt(e(349)) / 6) * (parseInt(e(354)) / 7) +
-              parseInt(e(364)) / 8 +
-              (-parseInt(e(369)) / 9) * (-parseInt(e(367)) / 10) +
-              (parseInt(e(360)) / 11) * (-parseInt(e(351)) / 12)
-          )
-            break;
-          t.push(t.shift());
-        } catch (e) {
-          t.push(t.shift());
-        }
-    })(),
-    document.querySelectorAll('div[data-state="closed"] .cursor-pointer')),
-  refreshButtonSvgClass = _0x138b2b(350),
-  waitForClass = _0x138b2b(365),
-  successIconClass = 'svg[data-state="closed"] .ml-4.flex.gap-4.items-center',
-  claimButtonSelector = _0x138b2b(361),
-  closeButtonSelector = _0x138b2b(362);
-function clickElement(e) {
-  var t = _0x138b2b,
-    n = new MouseEvent('click', { view: window, bubbles: !0, cancelable: !0 });
-  e[t(368)](n);
-}
-function closePopup() {
-  var e = _0x138b2b,
-    t = document[e(363)](closeButtonSelector);
-  t && (clickElement(t), console[e(355)](e(366)));
-}
-function _0xdc6e(e, t) {
-  const n = _0xfba8();
-  return (_0xdc6e = function (e, t) {
-    return (e -= 345), n[e];
+const _0x4ec6a5 = _0x3879;
+function _0x3879(e, t) {
+  const c = _0x52d5();
+  return (_0x3879 = function (e, t) {
+    return (e -= 382), c[e];
   })(e, t);
 }
-function checkClaimButton() {
-  var e = _0x138b2b,
-    t = document[e(363)](claimButtonSelector);
-  return (
-    !!t &&
-    (clickElement(t), console[e(355)](e(359)), setTimeout(closePopup, 2e3), !0)
-  );
+!(function () {
+  for (var e = _0x3879, t = _0x52d5(); ; )
+    try {
+      if (
+        420073 ==
+        -parseInt(e(382)) * (parseInt(e(398)) / 2) +
+          parseInt(e(406)) / 3 +
+          (parseInt(e(388)) / 4) * (parseInt(e(389)) / 5) +
+          (parseInt(e(395)) / 6) * (parseInt(e(393)) / 7) +
+          -parseInt(e(397)) / 8 +
+          (-parseInt(e(390)) / 9) * (parseInt(e(396)) / 10) +
+          parseInt(e(391)) / 11
+      )
+        break;
+      t.push(t.shift());
+    } catch (e) {
+      t.push(t.shift());
+    }
+})();
+const elementsToClick = document[_0x4ec6a5(383)](_0x4ec6a5(405)),
+  refreshButtonSvgClass = _0x4ec6a5(384),
+  waitForClass = _0x4ec6a5(399),
+  successIconClass = _0x4ec6a5(404),
+  claimButtonSelector = _0x4ec6a5(387),
+  closeButtonSelector =
+    'button.absolute.rounded-sm.opacity-70.right-5.top-6.sm\\:right-9.sm\\:top-9';
+function clickElement(e) {
+  var t = _0x4ec6a5,
+    t = new MouseEvent(t(385), { view: window, bubbles: !0, cancelable: !0 });
+  e.dispatchEvent(t);
 }
-function _0xfba8() {
+function _0x52d5() {
   const e = [
-    '6rBufSR',
-    'button[data-state="closed"] .flex.gap-4.items-center svg',
-    '5083212YhTsNn',
-    'querySelectorAll',
-    '79136ZKpawQ',
-    '1917748iPSymn',
-    'log',
-    '110XkdqkG',
-    '16773hrREsD',
-    'Galxe Auto Complete tasks – Happy Cuan Airdrop\n\nSubscribe: https://t.me/HappyCuanAirdrop',
     'Claim button clicked. Subscribe: https://t.me/HappyCuanAirdrop',
-    '11wvwyKW',
-    'button.inline-flex.bg-primary:not([disabled]).font-bold.px-6.w-full',
-    'button.absolute.rounded-sm.opacity-70.right-5.top-6.sm\\:right-9.sm\\:top-9',
-    'querySelector',
-    '2392704UwVKca',
-    '.text-size-14.font-bold',
-    'Popup closed.',
-    '10iIDmok',
-    'dispatchEvent',
-    '2360313bcHrhK',
-    'length',
-    '38BCzJMD',
-    '183668yiZObW',
     'forEach',
+    'length',
+    'svg[data-state="closed"] .ml-4.flex.gap-4.items-center',
+    'div[data-state="closed"] .cursor-pointer',
+    '1777302eUcilk',
+    '3862NprXsw',
+    'querySelectorAll',
+    'button[data-state="closed"] .flex.gap-1.items-center svg',
+    'click',
+    'Galxe Auto Complete tasks – Happy Cuan Airdrop\n\nSubscribe: https://t.me/HappyCuanAirdrop',
+    'button.inline-flex.bg-primary:not([disabled]).font-bold.px-6.w-full',
+    '92TRJhMa',
+    '2705maQSxx',
+    '99xwsCYY',
+    '11078980XTMVYJ',
+    'Popup closed.',
+    '1240302vkuulO',
+    'log',
+    '18JWtzzD',
+    '691160punDQC',
+    '1341552ajfAyM',
+    '412XBNcGI',
+    '.text-size-14.font-bold',
+    'querySelector',
   ];
-  return (_0xfba8 = function () {
+  return (_0x52d5 = function () {
     return e;
   })();
 }
+function closePopup() {
+  var e = _0x4ec6a5,
+    t = document.querySelector(closeButtonSelector);
+  t && (clickElement(t), console[e(394)](e(392)));
+}
+function checkClaimButton() {
+  var e = _0x4ec6a5,
+    t = document[e(400)](claimButtonSelector);
+  return (
+    !!t &&
+    (clickElement(t), console[e(394)](e(401)), setTimeout(closePopup, 2e3), !0)
+  );
+}
 function checkConditionsAndRetry() {
-  var e = _0x138b2b,
-    t = document[e(352)](waitForClass),
-    n = document[e(352)](successIconClass);
-  0 < t.length || n[e(345)] !== elementsToClick.length
+  var e = _0x4ec6a5,
+    t = document[e(383)](waitForClass),
+    c = document[e(383)](successIconClass);
+  0 < t[e(403)] || c[e(403)] !== elementsToClick[e(403)]
     ? setTimeout(processElements, 6e4)
     : checkClaimButton();
 }
 function processElements() {
-  const t = _0x138b2b;
-  alert(t(358)),
+  const t = _0x4ec6a5;
+  alert(t(386)),
     checkClaimButton() ||
-      (elementsToClick[t(348)](clickElement),
+      (elementsToClick.forEach(clickElement),
       setTimeout(() => {
         var e = t;
-        document[e(352)](refreshButtonSvgClass)[e(348)](clickElement),
+        document[e(383)](refreshButtonSvgClass)[e(402)](clickElement),
           setTimeout(checkConditionsAndRetry, 2e3);
       }, 2e3));
 }
