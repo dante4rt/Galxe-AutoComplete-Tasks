@@ -1,102 +1,103 @@
-const _0x4ec6a5 = _0x3879;
-function _0x3879(e, t) {
-  const c = _0x52d5();
-  return (_0x3879 = function (e, t) {
-    return (e -= 382), c[e];
-  })(e, t);
-}
-!(function () {
-  for (var e = _0x3879, t = _0x52d5(); ; )
-    try {
-      if (
-        420073 ==
-        -parseInt(e(382)) * (parseInt(e(398)) / 2) +
-          parseInt(e(406)) / 3 +
-          (parseInt(e(388)) / 4) * (parseInt(e(389)) / 5) +
-          (parseInt(e(395)) / 6) * (parseInt(e(393)) / 7) +
-          -parseInt(e(397)) / 8 +
-          (-parseInt(e(390)) / 9) * (parseInt(e(396)) / 10) +
-          parseInt(e(391)) / 11
-      )
-        break;
-      t.push(t.shift());
-    } catch (e) {
-      t.push(t.shift());
-    }
-})();
-const elementsToClick = document[_0x4ec6a5(383)](_0x4ec6a5(405)),
-  refreshButtonSvgClass = _0x4ec6a5(384),
-  waitForClass = _0x4ec6a5(399),
-  successIconClass = _0x4ec6a5(404),
-  claimButtonSelector = _0x4ec6a5(387),
-  closeButtonSelector =
-    'button.absolute.rounded-sm.opacity-70.right-5.top-6.sm\\:right-9.sm\\:top-9';
+const _0x5ed6b5 = _0x3fc0,
+  elementsToClick =
+    (!(function () {
+      for (var e = _0x3fc0, t = _0x5c1e(); ; )
+        try {
+          if (
+            607400 ==
+            +parseInt(e(485)) * (-parseInt(e(505)) / 2) +
+              (-parseInt(e(483)) / 3) * (parseInt(e(495)) / 4) +
+              (parseInt(e(503)) / 5) * (parseInt(e(482)) / 6) +
+              (-parseInt(e(504)) / 7) * (-parseInt(e(497)) / 8) +
+              -parseInt(e(490)) / 9 +
+              (parseInt(e(501)) / 10) * (parseInt(e(496)) / 11) +
+              parseInt(e(506)) / 12
+          )
+            break;
+          t.push(t.shift());
+        } catch (e) {
+          t.push(t.shift());
+        }
+    })(),
+    document[_0x5ed6b5(489)](_0x5ed6b5(488))),
+  refreshButtonSvgClass = _0x5ed6b5(499),
+  waitForClass = '.text-size-14.font-bold',
+  successIconClass = _0x5ed6b5(491),
+  claimButtonSelector = _0x5ed6b5(487),
+  closeButtonSelector = _0x5ed6b5(502);
 function clickElement(e) {
-  var t = _0x4ec6a5,
-    t = new MouseEvent(t(385), { view: window, bubbles: !0, cancelable: !0 });
-  e.dispatchEvent(t);
+  var t = _0x5ed6b5,
+    n = new MouseEvent(t(481), { view: window, bubbles: !0, cancelable: !0 });
+  e[t(486)](n);
 }
-function _0x52d5() {
+function closePopup() {
+  var e = _0x5ed6b5,
+    t = document.querySelector(closeButtonSelector);
+  t && (clickElement(t), console[e(484)]('Popup closed.'));
+}
+function checkClaimButton() {
+  var e = _0x5ed6b5,
+    t = document[e(498)](claimButtonSelector);
+  return (
+    !!t &&
+    (clickElement(t), console[e(484)](e(493)), setTimeout(closePopup, 2e3), !0)
+  );
+}
+function _0x5c1e() {
   const e = [
+    'Galxe Auto Complete tasks – Happy Cuan Airdrop\n\nSubscribe: https://t.me/HappyCuanAirdrop',
     'Claim button clicked. Subscribe: https://t.me/HappyCuanAirdrop',
     'forEach',
-    'length',
-    'svg[data-state="closed"] .ml-4.flex.gap-4.items-center',
-    'div[data-state="closed"] .cursor-pointer',
-    '1777302eUcilk',
-    '3862NprXsw',
-    'querySelectorAll',
-    'button[data-state="closed"] .flex.gap-1.items-center svg',
-    'click',
-    'Galxe Auto Complete tasks – Happy Cuan Airdrop\n\nSubscribe: https://t.me/HappyCuanAirdrop',
-    'button.inline-flex.bg-primary:not([disabled]).font-bold.px-6.w-full',
-    '92TRJhMa',
-    '2705maQSxx',
-    '99xwsCYY',
-    '11078980XTMVYJ',
-    'Popup closed.',
-    '1240302vkuulO',
-    'log',
-    '18JWtzzD',
-    '691160punDQC',
-    '1341552ajfAyM',
-    '412XBNcGI',
-    '.text-size-14.font-bold',
+    '3688028UFLfqO',
+    '11UdYUES',
+    '144ZJwyeA',
     'querySelector',
+    'div.flex.gap-1.items-center span svg',
+    'length',
+    '367660lSuUPJ',
+    'button.absolute.rounded-sm.opacity-70.right-5.top-6.sm\\:right-9.sm\\:top-9',
+    '87865uGuUCV',
+    '193676oxUhhX',
+    '62TYyFMU',
+    '12077364yCjmwu',
+    'click',
+    '162tdeunC',
+    '3vCwkAZ',
+    'log',
+    '4269QjdTHq',
+    'dispatchEvent',
+    'button.bg-primary.w-full',
+    'div[data-state="closed"] .cursor-pointer',
+    'querySelectorAll',
+    '3185658AUMudS',
+    'svg[data-state="closed"] .ml-4.flex.gap-4.items-center',
   ];
-  return (_0x52d5 = function () {
+  return (_0x5c1e = function () {
     return e;
   })();
 }
-function closePopup() {
-  var e = _0x4ec6a5,
-    t = document.querySelector(closeButtonSelector);
-  t && (clickElement(t), console[e(394)](e(392)));
-}
-function checkClaimButton() {
-  var e = _0x4ec6a5,
-    t = document[e(400)](claimButtonSelector);
-  return (
-    !!t &&
-    (clickElement(t), console[e(394)](e(401)), setTimeout(closePopup, 2e3), !0)
-  );
+function _0x3fc0(e, t) {
+  const n = _0x5c1e();
+  return (_0x3fc0 = function (e, t) {
+    return (e -= 481), n[e];
+  })(e, t);
 }
 function checkConditionsAndRetry() {
-  var e = _0x4ec6a5,
-    t = document[e(383)](waitForClass),
-    c = document[e(383)](successIconClass);
-  0 < t[e(403)] || c[e(403)] !== elementsToClick[e(403)]
+  var e = _0x5ed6b5,
+    t = document[e(489)](waitForClass),
+    n = document[e(489)](successIconClass);
+  0 < t[e(500)] || n[e(500)] !== elementsToClick[e(500)]
     ? setTimeout(processElements, 6e4)
     : checkClaimButton();
 }
 function processElements() {
-  const t = _0x4ec6a5;
-  alert(t(386)),
+  const t = _0x5ed6b5;
+  alert(t(492)),
     checkClaimButton() ||
-      (elementsToClick.forEach(clickElement),
+      (elementsToClick[t(494)](clickElement),
       setTimeout(() => {
         var e = t;
-        document[e(383)](refreshButtonSvgClass)[e(402)](clickElement),
+        document[e(489)](refreshButtonSvgClass)[e(494)](clickElement),
           setTimeout(checkConditionsAndRetry, 2e3);
       }, 2e3));
 }
