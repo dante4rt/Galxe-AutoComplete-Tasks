@@ -1,99 +1,107 @@
-const _0x5289ff = _0xffa3,
-  elementsToClick =
-    (!(function () {
-      for (var e = _0xffa3, t = _0x269e(); ; )
-        try {
-          if (
-            381466 ==
-            -parseInt(e(359)) +
-              -parseInt(e(371)) / 2 +
-              (parseInt(e(373)) / 3) * (-parseInt(e(369)) / 4) +
-              -parseInt(e(363)) / 5 +
-              parseInt(e(378)) / 6 +
-              parseInt(e(366)) / 7 +
-              parseInt(e(364)) / 8
-          )
-            break;
-          t.push(t.shift());
-        } catch (e) {
-          t.push(t.shift());
-        }
-    })(),
-    document[_0x5289ff(377)](_0x5289ff(362))),
-  refreshButtonSvgClass = _0x5289ff(374),
-  waitForClass = '.text-size-14.font-bold',
-  successIconClass = _0x5289ff(379),
-  claimButtonSelector = _0x5289ff(358),
-  closeButtonSelector = _0x5289ff(372);
+var _0x5a8b5d = _0x28ac;
+!(function () {
+  for (var e = _0x28ac, t = _0x132c(); ; )
+    try {
+      if (
+        173821 ==
+        -parseInt(e(314)) +
+          (parseInt(e(290)) / 2) * (-parseInt(e(303)) / 3) +
+          (parseInt(e(289)) / 4) * (-parseInt(e(295)) / 5) +
+          (parseInt(e(291)) / 6) * (-parseInt(e(288)) / 7) +
+          parseInt(e(293)) / 8 +
+          -parseInt(e(311)) / 9 +
+          (parseInt(e(294)) / 10) * (parseInt(e(308)) / 11)
+      )
+        break;
+      t.push(t.shift());
+    } catch (e) {
+      t.push(t.shift());
+    }
+})();
+const elementsToClick = document.querySelectorAll(_0x5a8b5d(313)),
+  refreshButtonSvgClass = _0x5a8b5d(299),
+  waitForClass = _0x5a8b5d(306),
+  successIconClass = _0x5a8b5d(300),
+  claimButtonSelector = _0x5a8b5d(305),
+  closeButtonSelector = _0x5a8b5d(307);
 function clickElement(e) {
-  var t = _0x5289ff,
-    n = new MouseEvent(t(367), { view: window, bubbles: !0, cancelable: !0 });
-  e[t(376)](n);
+  var t = _0x5a8b5d,
+    o = new MouseEvent(t(297), { view: window, bubbles: !0, cancelable: !0 });
+  e[t(298)](o);
 }
-function _0xffa3(e, t) {
-  const n = _0x269e();
-  return (_0xffa3 = function (e, t) {
-    return (e -= 358), n[e];
-  })(e, t);
-}
-function _0x269e() {
-  const e = [
-    '20268568nrnmeu',
-    'Claim button clicked. Subscribe: https://t.me/HappyCuanAirdrop',
-    '968373IlgNQB',
+function _0x132c() {
+  var e = [
     'click',
-    'Galxe Auto Complete tasks – Happy Cuan Airdrop\n\nSubscribe: https://t.me/HappyCuanAirdrop',
-    '8IOxSUW',
-    'log',
-    '1350494yItHPR',
-    'button.absolute.rounded-sm.opacity-70.right-5.top-6.sm\\:right-9.sm\\:top-9',
-    '914313pfDwfk',
-    'div.flex.gap-1.items-center span svg',
-    'forEach',
     'dispatchEvent',
-    'querySelectorAll',
-    '317718OHhOuD',
+    'div.flex.gap-1.items-center:not(.font-inter.text-size-14.text-foreground):not(.px-4.h-8.rounded-6.border.border-solid.border-border-button) span svg',
     'svg[data-state="closed"] .ml-4.flex.gap-4.items-center',
-    'button.bg-primary:not([disabled]).w-full',
-    '352396JKiMox',
-    'querySelector',
+    'Claim button clicked. Subscribe: https://t.me/HappyCuanAirdrop',
+    'forEach',
+    '3EvOJgA',
     'length',
+    'button.bg-primary:not([disabled]).w-full',
+    '.text-size-14.font-bold',
+    'button.absolute.rounded-sm.opacity-70.right-5.top-6.sm\\:right-9.sm\\:top-9',
+    '140327JMWYdv',
+    'querySelector',
+    'Galxe Auto Complete tasks – Happy Cuan Airdrop\n\nSubscribe: https://t.me/HappyCuanAirdrop',
+    '2666664nNzmZe',
+    'querySelectorAll',
     'div[data-state="closed"] .cursor-pointer',
-    '3531060GoJHPT',
+    '45396OJguKS',
+    'log',
+    '7DMrKKQ',
+    '13276OBIfTo',
+    '4696gkmbpo',
+    '495630AiVNBf',
+    'Popup closed.',
+    '1442544KdWWwJ',
+    '410pDBqQv',
+    '155THsWLS',
+    'All tasks has been completed!\n\nSubscribe: https://t.me/HappyCuanAirdrop',
   ];
-  return (_0x269e = function () {
+  return (_0x132c = function () {
     return e;
   })();
 }
 function closePopup() {
-  var e = document.querySelector(closeButtonSelector);
-  e && (clickElement(e), console.log('Popup closed.'));
+  var e = _0x5a8b5d,
+    t = document[e(309)](closeButtonSelector);
+  t && (clickElement(t), console.log(e(292)));
 }
 function checkClaimButton() {
-  var e = _0x5289ff,
-    t = document[e(360)](claimButtonSelector);
+  var e = _0x5a8b5d,
+    t = document.querySelector(claimButtonSelector);
   return (
     !!t &&
-    (clickElement(t), console[e(370)](e(365)), setTimeout(closePopup, 2e3), !0)
+    (clickElement(t), console[e(315)](e(301)), setTimeout(closePopup, 2e3), !0)
   );
 }
 function checkConditionsAndRetry() {
-  var e = _0x5289ff,
-    t = document[e(377)](waitForClass),
-    n = document[e(377)](successIconClass);
-  0 < t[e(361)] || n.length !== elementsToClick[e(361)]
+  var e = _0x5a8b5d,
+    t = document[e(312)](waitForClass),
+    o = document.querySelectorAll(successIconClass);
+  0 < t[e(304)] || o[e(304)] !== elementsToClick.length
     ? setTimeout(processElements, 6e4)
     : checkClaimButton();
 }
+function _0x28ac(e, t) {
+  var o = _0x132c();
+  return (_0x28ac = function (e, t) {
+    return o[(e -= 288)];
+  })(e, t);
+}
 function processElements() {
-  const t = _0x5289ff;
-  alert(t(368)),
-    checkClaimButton() ||
-      (elementsToClick[t(375)](clickElement),
-      setTimeout(() => {
-        var e = t;
-        document[e(377)](refreshButtonSvgClass)[e(375)](clickElement),
-          setTimeout(checkConditionsAndRetry, 2e3);
-      }, 2e3));
+  var e = _0x5a8b5d;
+  alert(e(310)),
+    checkClaimButton()
+      ? alert(e(296))
+      : (elementsToClick[e(302)](clickElement),
+        setTimeout(() => {
+          document
+            .querySelectorAll(refreshButtonSvgClass)
+            .forEach(clickElement),
+            setTimeout(checkConditionsAndRetry, 2e3);
+        }, 2e3));
 }
 processElements();
