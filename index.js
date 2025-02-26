@@ -1,107 +1,286 @@
-var _0x5a8b5d = _0x28ac;
-!(function () {
-  for (var e = _0x28ac, t = _0x132c(); ; )
+const _0x3dcc7e = _0x4fc8;
+(function (_0x2827da, _0x555288) {
+  const _0x3d4350 = _0x4fc8,
+    _0x239404 = _0x2827da();
+  while (!![]) {
     try {
-      if (
-        173821 ==
-        -parseInt(e(314)) +
-          (parseInt(e(290)) / 2) * (-parseInt(e(303)) / 3) +
-          (parseInt(e(289)) / 4) * (-parseInt(e(295)) / 5) +
-          (parseInt(e(291)) / 6) * (-parseInt(e(288)) / 7) +
-          parseInt(e(293)) / 8 +
-          -parseInt(e(311)) / 9 +
-          (parseInt(e(294)) / 10) * (parseInt(e(308)) / 11)
-      )
-        break;
-      t.push(t.shift());
-    } catch (e) {
-      t.push(t.shift());
+      const _0x17288a =
+        (-parseInt(_0x3d4350(0xc7)) / (-0x2c5 * -0x9 + -0x1a44 + 0x158)) *
+          (-parseInt(_0x3d4350(0xce)) / (0x1d8c + -0x1c74 * 0x1 + -0x116)) +
+        -parseInt(_0x3d4350(0xb0)) / (-0x3 * -0x751 + -0x992 + -0xc5e) +
+        -parseInt(_0x3d4350(0xc0)) / (-0x4 * 0x6a3 + 0x175d * 0x1 + 0xd * 0x3f) +
+        (parseInt(_0x3d4350(0xac)) / (0x19 * -0x10 + -0x307 * -0x7 + -0x139c * 0x1)) *
+          (parseInt(_0x3d4350(0xdb)) / (-0x41 * 0xe + -0x7f * 0x1 + -0x95 * -0x7)) +
+        parseInt(_0x3d4350(0xad)) / (-0x208a + 0x25fc + 0x1 * -0x56b) +
+        -parseInt(_0x3d4350(0xa3)) / (0x3d4 * -0x1 + 0x9f + 0x1 * 0x33d) +
+        parseInt(_0x3d4350(0xc1)) / (-0x1 * 0x4a + -0x8d * 0x3e + 0x2279);
+      if (_0x17288a === _0x555288) break;
+      else _0x239404["push"](_0x239404["shift"]());
+    } catch (_0x1825ca) {
+      _0x239404["push"](_0x239404["shift"]());
     }
-})();
-const elementsToClick = document.querySelectorAll(_0x5a8b5d(313)),
-  refreshButtonSvgClass = _0x5a8b5d(299),
-  waitForClass = _0x5a8b5d(306),
-  successIconClass = _0x5a8b5d(300),
-  claimButtonSelector = _0x5a8b5d(305),
-  closeButtonSelector = _0x5a8b5d(307);
-function clickElement(e) {
-  var t = _0x5a8b5d,
-    o = new MouseEvent(t(297), { view: window, bubbles: !0, cancelable: !0 });
-  e[t(298)](o);
-}
-function _0x132c() {
-  var e = [
-    'click',
-    'dispatchEvent',
-    'div.flex.gap-1.items-center:not(.font-inter.text-size-14.text-foreground):not(.px-4.h-8.rounded-6.border.border-solid.border-border-button) span svg',
-    'svg[data-state="closed"] .ml-4.flex.gap-4.items-center',
-    'Claim button clicked. Subscribe: https://t.me/HappyCuanAirdrop',
-    'forEach',
-    '3EvOJgA',
-    'length',
-    'button.bg-primary:not([disabled]).w-full',
-    '.text-size-14.font-bold',
-    'button.absolute.rounded-sm.opacity-70.right-5.top-6.sm\\:right-9.sm\\:top-9',
-    '140327JMWYdv',
-    'querySelector',
-    'Galxe Auto Complete tasks – Happy Cuan Airdrop\n\nSubscribe: https://t.me/HappyCuanAirdrop',
-    '2666664nNzmZe',
-    'querySelectorAll',
-    'div[data-state="closed"] .cursor-pointer',
-    '45396OJguKS',
-    'log',
-    '7DMrKKQ',
-    '13276OBIfTo',
-    '4696gkmbpo',
-    '495630AiVNBf',
-    'Popup closed.',
-    '1442544KdWWwJ',
-    '410pDBqQv',
-    '155THsWLS',
-    'All tasks has been completed!\n\nSubscribe: https://t.me/HappyCuanAirdrop',
-  ];
-  return (_0x132c = function () {
-    return e;
-  })();
-}
-function closePopup() {
-  var e = _0x5a8b5d,
-    t = document[e(309)](closeButtonSelector);
-  t && (clickElement(t), console.log(e(292)));
-}
-function checkClaimButton() {
-  var e = _0x5a8b5d,
-    t = document.querySelector(claimButtonSelector);
+  }
+})(_0x1574, -0x6fc15 + 0x25 * -0x3fa5 + 0x1ede65);
+function _0x4fc8(_0x37f9c3, _0x559e59) {
+  const _0x598db6 = _0x1574();
   return (
-    !!t &&
-    (clickElement(t), console[e(315)](e(301)), setTimeout(closePopup, 2e3), !0)
+    (_0x4fc8 = function (_0x3bb127, _0xb84ec) {
+      _0x3bb127 = _0x3bb127 - (-0x103f + 0x86 * 0x12 + 0x3b5 * 0x2);
+      let _0x4d5359 = _0x598db6[_0x3bb127];
+      return _0x4d5359;
+    }),
+    _0x4fc8(_0x37f9c3, _0x559e59)
   );
 }
-function checkConditionsAndRetry() {
-  var e = _0x5a8b5d,
-    t = document[e(312)](waitForClass),
-    o = document.querySelectorAll(successIconClass);
-  0 < t[e(304)] || o[e(304)] !== elementsToClick.length
-    ? setTimeout(processElements, 6e4)
-    : checkClaimButton();
+const elementsToClick = document[_0x3dcc7e(0xcc) + _0x3dcc7e(0xb1)](
+    _0x3dcc7e(0xb6) + _0x3dcc7e(0xb7) + _0x3dcc7e(0x9f) + _0x3dcc7e(0xd1)
+  ),
+  refreshButtonSvgClass = _0x3dcc7e(0xab) + _0x3dcc7e(0xbb) + _0x3dcc7e(0x98) + "g",
+  waitForClass = _0x3dcc7e(0x99) + _0x3dcc7e(0xa7) + _0x3dcc7e(0xb9),
+  successIconClass =
+    _0x3dcc7e(0xb2) +
+    _0x3dcc7e(0xb7) +
+    _0x3dcc7e(0xc4) +
+    _0x3dcc7e(0xd5) +
+    _0x3dcc7e(0xbc) +
+    _0x3dcc7e(0xb4),
+  claimButtonSelector = _0x3dcc7e(0xdf) + _0x3dcc7e(0xa1) + _0x3dcc7e(0xa9) + _0x3dcc7e(0xd2),
+  closeButtonSelector =
+    _0x3dcc7e(0xc2) +
+    _0x3dcc7e(0xe0) +
+    _0x3dcc7e(0xc8) +
+    _0x3dcc7e(0xe3) +
+    _0x3dcc7e(0xe6) +
+    _0x3dcc7e(0xde) +
+    _0x3dcc7e(0x9b) +
+    _0x3dcc7e(0xa2);
+function clickElement(_0x3d1f2b) {
+  const _0x2257d4 = _0x3dcc7e,
+    _0x55d6a3 = { jcsMW: _0x2257d4(0x9a) },
+    _0x11d130 = new MouseEvent(_0x55d6a3[_0x2257d4(0xd9)], {
+      view: window,
+      bubbles: !![],
+      cancelable: !![],
+    });
+  _0x3d1f2b[_0x2257d4(0xc5) + _0x2257d4(0xe9)](_0x11d130);
 }
-function _0x28ac(e, t) {
-  var o = _0x132c();
-  return (_0x28ac = function (e, t) {
-    return o[(e -= 288)];
-  })(e, t);
+function closePopup() {
+  const _0xba57d8 = _0x3dcc7e,
+    _0x511d3c = {
+      xWxuq: function (_0x536088, _0x443c77) {
+        return _0x536088(_0x443c77);
+      },
+      ZaNzJ: _0xba57d8(0xca) + _0xba57d8(0xd4),
+    },
+    _0x3a861c = document[_0xba57d8(0xcc) + _0xba57d8(0xbe)](closeButtonSelector);
+  _0x3a861c &&
+    (_0x511d3c[_0xba57d8(0x9c)](clickElement, _0x3a861c),
+    console[_0xba57d8(0xe4)](_0x511d3c[_0xba57d8(0xa8)]));
+}
+function checkClaimButton() {
+  const _0x30bcac = _0x3dcc7e,
+    _0x309ad2 = {
+      FBNCM: function (_0xaa37b1, _0x3f458d) {
+        return _0xaa37b1(_0x3f458d);
+      },
+      JjjHI:
+        _0x30bcac(0xe1) +
+        _0x30bcac(0xb8) +
+        _0x30bcac(0xcd) +
+        _0x30bcac(0xd7) +
+        _0x30bcac(0xba) +
+        _0x30bcac(0x97) +
+        "op",
+      ORwOS: function (_0x3073dd, _0x1d0fc5, _0x37f9be) {
+        return _0x3073dd(_0x1d0fc5, _0x37f9be);
+      },
+    },
+    _0x14d370 = document[_0x30bcac(0xcc) + _0x30bcac(0xbe)](claimButtonSelector);
+  if (_0x14d370)
+    return (
+      _0x309ad2[_0x30bcac(0xe2)](clickElement, _0x14d370),
+      console[_0x30bcac(0xe4)](_0x309ad2[_0x30bcac(0xd0)]),
+      _0x309ad2[_0x30bcac(0xeb)](
+        setTimeout,
+        closePopup,
+        -0x24d * -0x5 + 0x3 * -0x658 + 0x7 * 0x231
+      ),
+      !![]
+    );
+  return ![];
+}
+function checkConditionsAndRetry() {
+  const _0x1666bc = _0x3dcc7e,
+    _0x523a0d = {
+      nAzhv: function (_0x2bd4c1, _0x1c4e7a) {
+        return _0x2bd4c1 > _0x1c4e7a;
+      },
+      YQjbZ: function (_0x55383e, _0x10bbd8) {
+        return _0x55383e !== _0x10bbd8;
+      },
+      rQNtC: function (_0x412bbf, _0x19f240, _0xec14bc) {
+        return _0x412bbf(_0x19f240, _0xec14bc);
+      },
+      OeysE: function (_0x33ab93) {
+        return _0x33ab93();
+      },
+    },
+    _0x1fd4cd = document[_0x1666bc(0xcc) + _0x1666bc(0xb1)](waitForClass),
+    _0x1ca349 = document[_0x1666bc(0xcc) + _0x1666bc(0xb1)](successIconClass);
+  _0x523a0d[_0x1666bc(0xe5)](_0x1fd4cd[_0x1666bc(0xdd)], -0xba3 + 0x104 + 0x1 * 0xa9f) ||
+  _0x523a0d[_0x1666bc(0xda)](_0x1ca349[_0x1666bc(0xdd)], elementsToClick[_0x1666bc(0xdd)])
+    ? _0x523a0d[_0x1666bc(0x9d)](
+        setTimeout,
+        processElements,
+        0x1b6c8 + -0x2854 * 0x1 + -0x520a * 0x2
+      )
+    : _0x523a0d[_0x1666bc(0xa5)](checkClaimButton);
 }
 function processElements() {
-  var e = _0x5a8b5d;
-  alert(e(310)),
-    checkClaimButton()
-      ? alert(e(296))
-      : (elementsToClick[e(302)](clickElement),
-        setTimeout(() => {
-          document
-            .querySelectorAll(refreshButtonSvgClass)
-            .forEach(clickElement),
-            setTimeout(checkConditionsAndRetry, 2e3);
-        }, 2e3));
+  const _0x245a81 = _0x3dcc7e,
+    _0x6dfe14 = {
+      AkhmH: function (_0x75f8c7, _0x30dc23, _0x4a512c) {
+        return _0x75f8c7(_0x30dc23, _0x4a512c);
+      },
+      czunQ: function (_0x60420d, _0x4fedad) {
+        return _0x60420d(_0x4fedad);
+      },
+      QAfem:
+        _0x245a81(0xe8) +
+        _0x245a81(0xa0) +
+        _0x245a81(0xdc) +
+        _0x245a81(0xbf) +
+        _0x245a81(0xd6) +
+        _0x245a81(0xa6) +
+        _0x245a81(0xea) +
+        _0x245a81(0xaf) +
+        _0x245a81(0xae),
+      QBStf: function (_0x1893d1) {
+        return _0x1893d1();
+      },
+      GqxRa: function (_0x3e4b9b, _0x143df8) {
+        return _0x3e4b9b(_0x143df8);
+      },
+      ekTqx:
+        _0x245a81(0xb3) +
+        _0x245a81(0xc3) +
+        _0x245a81(0xcb) +
+        _0x245a81(0xa4) +
+        _0x245a81(0xd3) +
+        _0x245a81(0xc6) +
+        _0x245a81(0xd8) +
+        "p",
+    };
+  _0x6dfe14[_0x245a81(0xbd)](alert, _0x6dfe14[_0x245a81(0xb5)]),
+    !_0x6dfe14[_0x245a81(0xaa)](checkClaimButton)
+      ? (elementsToClick[_0x245a81(0xcf)](clickElement),
+        _0x6dfe14[_0x245a81(0x9e)](
+          setTimeout,
+          () => {
+            const _0x3dc792 = _0x245a81,
+              _0x522696 = document[_0x3dc792(0xcc) + _0x3dc792(0xb1)](refreshButtonSvgClass);
+            _0x522696[_0x3dc792(0xcf)](clickElement),
+              _0x6dfe14[_0x3dc792(0x9e)](
+                setTimeout,
+                checkConditionsAndRetry,
+                -0x371 + -0x4bb * 0x7 + -0x12 * -0x277
+              );
+          },
+          0x2588 + 0x1ee0 + -0x3c98
+        ))
+      : _0x6dfe14[_0x245a81(0xc9)](alert, _0x6dfe14[_0x245a81(0xe7)]);
 }
 processElements();
+function _0x1574() {
+  const _0x47a602 = [
+    "nter",
+    "QAfem",
+    "div[data-s",
+    "tate=\x22clos",
+    "on\x20clicked",
+    "old",
+    "/t.me/Happ",
+    "a-state=\x22c",
+    "4.items-ce",
+    "czunQ",
+    "tor",
+    "ppy\x20Cuan\x20A",
+    "5474792IVSAci",
+    "12969792CHTPpi",
+    "button.abs",
+    "has\x20been\x20c",
+    "ed\x22]\x20.ml-4",
+    "dispatchEv",
+    "t.me/Happy",
+    "10603wltRiS",
+    "ded-sm.opa",
+    "GqxRa",
+    "Popup\x20clos",
+    "ompleted!\x0a",
+    "querySelec",
+    ".\x20Subscrib",
+    "146MTjATI",
+    "forEach",
+    "JjjHI",
+    "or-pointer",
+    "d]).w-full",
+    ":\x20https://",
+    "ed.",
+    ".flex.gap-",
+    "irdrop\x0a\x0aSu",
+    "e:\x20https:/",
+    "CuanAirdro",
+    "jcsMW",
+    "YQjbZ",
+    "84osuPuB",
+    "tasks\x20–\x20Ha",
+    "length",
+    "6.sm\x5c:righ",
+    "button.bg-",
+    "olute.roun",
+    "Claim\x20butt",
+    "FBNCM",
+    "city-70.ri",
+    "log",
+    "nAzhv",
+    "ght-5.top-",
+    "ekTqx",
+    "Galxe\x20Auto",
+    "ent",
+    "ttps://t.m",
+    "ORwOS",
+    "yCuanAirdr",
+    "losed\x22]\x20sv",
+    ".text-size",
+    "click",
+    "t-9.sm\x5c:to",
+    "xWxuq",
+    "rQNtC",
+    "AkhmH",
+    "ed\x22]\x20.curs",
+    "\x20Complete\x20",
+    "primary:no",
+    "p-9",
+    "6929992LJDqBc",
+    "\x0aSubscribe",
+    "OeysE",
+    "bscribe:\x20h",
+    "-14.font-b",
+    "ZaNzJ",
+    "t([disable",
+    "QBStf",
+    "button[dat",
+    "34035kgRDdU",
+    "7591024EpRyWi",
+    "nAirdrop",
+    "e/HappyCua",
+    "592401XmUCYs",
+    "torAll",
+    "svg[data-s",
+    "All\x20tasks\x20",
+  ];
+  _0x1574 = function () {
+    return _0x47a602;
+  };
+  return _0x1574();
+}
